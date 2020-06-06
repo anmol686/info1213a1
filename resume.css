@@ -1,0 +1,78 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:20px;
+	line-height:1.5;
+	border:2px solid black;
+	padding:10px 30px;
+	margin:20px 30px;
+	background:url(https://cdn.wallpapersafari.com/38/20/PB9auk.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+h1{
+	margin-bottom:3px;
+	font-size:3em;
+}
+
+#center{
+	text-align:center;
+	color:#302C30;
+	line-height:1.3;
+	float:right;
+	margin-right: 40%;
+}
+
+.img-john{
+	 width: 15%;
+	 margin-bottom: 4%;
+	 margin-left: 5%;
+}
+
+#profile{
+	padding-top: 5px;
+
+}
+
+.highlight{
+	text-decoration: underline;
+	font-weight: normal;
+	font-size: 2rem;
+	margin-bottom:1px;
+}
+	
+hr{
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+}
+
+	/*Descendent Selector*/
+
+li ol{
+	font-weight: bold;
+}
+
+	/*Hover selector*/
+
+a:hover {
+  color: #C7160E;
+}
+
+	/*Adjacent Selector*/
+
+hr + div{
+	text-align: right;
+	color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
